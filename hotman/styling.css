@@ -1,0 +1,97 @@
+#signupform{
+    
+    background-color: darkorange;
+    margin: 5px;
+    padding: 2px;
+    border : 2px solid black;
+    float : right;
+        
+}
+
+header{
+    
+    background: url(ocean.jpg) 100% no-repeat;
+    background-size: cover;
+}
+
+body{
+    background: url(royale.jpg)no-repeat;
+    background-size: cover;
+}
+
+h2{
+    
+    font-family: monospace;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+#loginform{
+    background-color: cornflowerblue;
+    margin: 5px;
+    padding: 2px;
+    border : 2px solid black;
+    float : right;
+}
+
+#taskbar{
+    
+    background-color: darkslateblue;
+    width: 900px;
+    height: 40px;
+    align-content: center;
+}
+
+.viewcust{
+    background: url(button.jpg);
+    margin: 10px;
+    padding: 10px;
+    border: 5px red;
+}
+
+.viewbooking{
+    background: url(button.jpg);
+    margin: 10px;
+    padding: 10px;
+    border: 5px red;
+}
+
+.viewstaff{
+    background: url(button.jpg);
+    margin: 10px;
+    padding: 10px;
+    border: 5px red;
+}
+
+.viewpackage{
+    background: url(button.jpg);
+    margin: 10px;
+    padding: 10px;
+    border: 5px red;
+}
+
+.viewroom{
+    background: url(button.jpg);
+    margin: 10px;
+    padding: 10px;
+    border: 5px red;
+}
+
+.stafflisting{
+    background-color: brown;
+    border: 5px black;
+}
+
+.welcoming{
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+    border: 5px black;
+    font-size:20px; 
+}
+
+h1.wording{
+    font-family: cursive;
+    font-size: 20;
+    color: red;
+}

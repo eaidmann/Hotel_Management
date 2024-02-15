@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+
+<HTML>
+
+    <head>
+    
+        <title>TourisMY Hotel - Staff Sign Up</title>
+        <link rel="stylesheet" href="styling.css">
+        
+    </head>
+    
+    <header>
+    
+        <div align="center" class="titleheader">
+        <img src="hotel-logo2.png" />
+        </div>
+        <hr/>
+    
+    </header>
+    
+    <body>
+        
+        <div id="signupform">
+            <h2 align="center">Staff - Sign Up</h2>
+            <hr/>
+        <form action="sregister.php" method="POST" autocomplete="off">
+        
+            Full Name : <input type="text" name="staffname" placeholder="Enter Full Name" required />
+            <br/> <br/>
+            Birthdate : <input type="date" name="birthdate" required />
+            <br/> <br/>
+            Username : <input type="text" name="username" placeholder="Enter Username" required /> 
+            Password : <input type="password" name="password" placeholder="Enter Password" required />
+            <br/> <br/>
+            Addrress : <textarea name="address" placeholder="Enter Your Address" rows="5" cols="30" required></textarea>
+            <br/> <br/>
+            Phone Number : <input type="text" name="phonenumber" placeholder="Enter Phone Number" required />
+            Email : <input type="email" name="email" placeholder="Enter Email Address" required />
+            <br/> <br/>
+            <input type="submit" name="register" value="Register" /> <a href="stafflogin.html">Log In</a>
+            
+        </form>
+        </div>
+        
+    </body>
+    
+</HTML>
